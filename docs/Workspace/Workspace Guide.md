@@ -1,26 +1,13 @@
 Imported from one of [Djivan](../People/VARTANIAN%20Djivan.md)'s previous projects. 
 
 # Guide pour accéder au projet 
-Un compte [GitHub](GitHub.md) est nécessaire : https://github.com/login. 
-Deux outils nécessaires expliqués ci-dessous : [GitHub Desktop](GitHub%20Desktop.md) et [Obsidian](Obsidian.md). 
+Un compte [GitHub](../Guides/GitHub.md) est nécessaire : https://github.com/login. 
+Deux outils nécessaires expliqués ci-dessous : [GitHub Desktop](../Guides/GitHub%20Desktop.md) et [Obsidian](../Guides/Obsidian.md). 
 
 ## 1. Téléchargements et installation 
-### Linux 
-GitHub Desktop : 
+[GitHub Desktop](../Guides/GitHub%20Desktop.md) 
 
-![](GitHub%20Desktop.md#^Linux) 
-
-Obsidian : 
-
-![](Obsidian.md#^Linux) 
-### Windows 
-GitHub Desktop : 
-
-![](GitHub%20Desktop.md#^Windows) 
-
-Obsidian : 
-
-![](Obsidian.md#^Windows) 
+[Obsidian](../Guides/Obsidian.md) 
 
 ---
 <div style="page-break-after: always;"></div>
