@@ -5,7 +5,7 @@ Project for OUAP-4117
 ## Index 
 The project is divided in multiple branches. 
 
-- [ ] **Project organization** 
+- [ ] **[Project organization](docs/Project%20organization.md)** 
 - [ ] Camera programming 
 - [ ] Embedded card programming 
 - [ ] Design 
