@@ -1,10 +1,12 @@
-Djivan, Andrei and Philip
+2025-10-01
+Djivan Vartanian, Andrei Stupu and Philip Schlicht
+
 # TASK:
 **Homework:** Prepare a detailed, per-person task plan describing what each team member will work on in the course of the next two TP sessions. This has to be posted on your team Discord channel before 2025-10-02.
 
-## We need to Decide on Quaterdeadlines!
+# We need to Decide on Quaterdeadlines!
 
-# Camera programming (App)
+### Camera programming (App)
 - Framwork
 - Design UI
 - Take Fotos
@@ -12,26 +14,27 @@ Djivan, Andrei and Philip
 - distribute the app on multible devices (Andorid, IOS, Linux )
 - Test on Multiple Devices which have a cammera
 
-# Embedded programming
+## Embedded programming
  - Compare Technologies and decide
  - Get the servo to spin
  - connect arduino to engine
  - is arduino the best choice? What microcontroller to use?
 
-# Design
+## Design
  - Messure the Arduino and the Ballbearings
  - Which CAD Software
  - Which Fillerment
  - Which Printer and Sclicer
  - [How will it look (10 Thesis (rams))](https://rams-foundation.org/foundation/design-comprehension/theses/)
 
-# Project Organisation
+## Project Organisation
 - Use GIT
 - Organize Files
 - write documentation
 - https://github.com/DDjivan/photo-turntable-project
+- search, summarize and compare existing projects that are similar to parts of our projects
 
-## Members
+# Members
 
 Djivan (INF @ ESIEE)
 - likes python, C, C++, GD-script
