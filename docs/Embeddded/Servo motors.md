@@ -40,3 +40,10 @@ https://www.amazon.fr/dp/B0BZP93M4B
 spin 360° [?]
 17€
 Issue: High voltage (8.4V) because of the 5 V of the arduino (we would need to use an external power supply)
+
+
+https://www.amazon.fr/-/en/Servo-Micro-Digital-Rotation-Crawler/dp/B0DHC5MGS9
+
+we need a 360° Servo, which is not continious and around 5V
+
+
