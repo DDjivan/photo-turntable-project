@@ -8,7 +8,7 @@ The project is divided in multiple branches.
 - [ ] **[Project organization](docs/Project%20organization.md)** 
 - [ ] Camera programming 
 - [ ] [[docs/Embeddded/Embedded card programming]]  
-- [ ] Design 
+- [ ] [[Design]] 
 
 ## Authors  
 - [Djivan Vartanian](docs/People/VARTANIAN%20Djivan.md) 
