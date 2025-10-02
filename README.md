@@ -7,7 +7,7 @@ The project is divided in multiple branches.
 
 - [ ] **[Project organization](docs/Project%20organization.md)** 
 - [ ] Camera programming 
-- [ ] Embedded card programming 
+- [ ] [[docs/Embeddded/Embedded card programming]]  
 - [ ] Design 
 
 ## Authors  
