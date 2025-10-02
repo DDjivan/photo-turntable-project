@@ -6,6 +6,8 @@ What are the different options
 # Servo Motor
 
 ## what is the weight targeted 
+- a few grams 
+- keep friction in mind, that's why we are going to use Ball bearings
 
 ### how to connect to the microcontroller 
 - Hopefully with 3 cables, power, data and ground (VCC, PWM, GRD)
@@ -21,8 +23,10 @@ What are the different options
 ### what control do we have on it 
 - we can decide which position the motor has
 ## how stable is it 
+- i dont know (never turn the turntable by hand!!!!)
 
 ## how noisy is it
+- i dont know (not that important)
 
 
 
@@ -35,3 +39,4 @@ What are the different options
 https://www.amazon.fr/dp/B0BZP93M4B
 spin 360° [?]
 17€
+Issue: High voltage (8.4V) because of the 5 V of the arduino (we would need to use an external power supply)
