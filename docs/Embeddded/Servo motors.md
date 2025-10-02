@@ -47,3 +47,4 @@ https://www.amazon.fr/-/en/Servo-Micro-Digital-Rotation-Crawler/dp/B0DHC5MGS9
 we need a 360° Servo, which is not continious and around 5V
 
 
+https://www.amazon.fr/-/en/Heschen-Rectangular-Rocker-Position-Terminals/dp/B076VLJL37/524-0659531-4920245?psc=1
