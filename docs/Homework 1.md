@@ -52,7 +52,7 @@ Andrei (Computer Science(italy) / AIC @ ESIEE )
 - accomplish some Assembly in RISC-V
 - interesseted in Design and 3D-printing
 
-Philip (Mechenical Engineering - Product development (germany) / SEI @ ESIEE)
+Philip (Mechenical Engineering - Product development (germany) @HSD / SEI @ ESIEE)
 - learned Java
 - used CAD (Creo parametic)
 - 3D printed a some times
@@ -60,4 +60,4 @@ Philip (Mechenical Engineering - Product development (germany) / SEI @ ESIEE)
 - did some Design
 - (can calculate forces of steel and do flow Simulation)
 ## Brainstorm from 2025-09-26 on excalidraw.com
-![](attachments/Unbenannt-2025-10-01-1927.png)![](attachments/Unbenannt-2025-10-01-1928.png)
+![](attachments/Brainstorm%20from%202025-10-01.png)![](attachments/Brainstorm%20from%202025-10-01%202.png)
