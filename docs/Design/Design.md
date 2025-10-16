@@ -12,13 +12,7 @@ We need a mean to take photos with a phone, send the photos to a computer, which
 
 ## Construction and Assembling
 The model now need to be made to be able to containt every hardware we need.
+It need to be resistant, durable and re-usable.
 
-
-
-need to be resistent, durable, re-usable
-		|
-		|
-		v
-material /stability
-
-https://rams-foundation.org/foundation/design-comprehension/theses
+## Final check
+check this [link](https://rams-foundation.org/foundation/design-comprehension/theses) for final decisions.
