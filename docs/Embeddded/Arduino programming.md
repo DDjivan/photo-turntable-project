@@ -6,7 +6,8 @@ We will use the serial communication.
 ### resources used:
 https://www.pyserial.com/docs/arduino-integration:
 Maybe implement the "Find Arduino Port": 
-```
+
+```python
 import serial.tools.list_ports
 
 def find_arduino():
@@ -18,10 +19,11 @@ def find_arduino():
 
 port = find_arduino()
 if port:
-    print(f"Found Arduino on {port}")
+	print(f"Found Arduino on {port}")
 else:
     print("Arduino not found")
 ```
+
 https://www.youtube.com/playlist?list=PLb1SYTph-GZJb1CFM7ioVY9XJYlPVUBQy
 
 https://www.geeksforgeeks.org/python/try-except-else-and-finally-in-python/
@@ -31,9 +33,9 @@ Switch-Case-Statements can not be made with Strings
 
 https://www.geeksforgeeks.org/python/python-strings-decode-method/
 
-### Dependencys
+### Dependencies
 
-We install the [latest stable python version](https://www.python.org/downloads/).
+For Microsoft Windows: the [latest stable python version](https://www.python.org/downloads/). 
 
 Then we run the command line on Windows to install the [Python Serial Port Extension](https://pypi.org/project/pyserial/):
 
@@ -57,28 +59,28 @@ void setup() {
 }
 
 void loop() {
-
-  if (Serial.available() > 0) { //checks if there is a Serial message available
-    text = Serial.readString(); // sets the text variable to the newest serial message
-  }
+	// checks if there is a Serial message available
+	if (Serial.available() > 0) { 
+		// sets the text variable to the newest serial message
+	    text = Serial.readString(); 
+	}
   
-	Serial.println(text); // prints the message to serial over and over
+  // prints the message to serial over and over
+  Serial.println(text); 
 }
 ```
 
 
-[Hello_WorldSerialPython](../../Embedded%20code%20testing/Hello_WorldSerialPython.py) (Test code)
+[Hello_WorldSerialPython.py](../../Embedded%20code%20testing/Hello_WorldSerialPython.py) (Test code)
 ```python
 import sys
-import time
+from time import sleep
 
-while 1:
-
-	print("Hello World!") //prints "Hello World!"
-	time.wait(3) // waits 3 seconds
-	print("Bye World!") //print "Bye World!"
-	sys.exit() //terminates the code
-	
+while True:
+	print("Hello World!")
+	sleep(3)
+	print("Bye World!")
+	sys.exit()
 ```
 
 
