@@ -64,5 +64,5 @@ https://www.amazon.fr/dp/B09GFQPDY8
 | Product                                                  | Date ordered | Date received |
 | -------------------------------------------------------- | ------------ | ------------- |
 | [Micro Servo Motor](https://www.amazon.fr/dp/B0CD1WMLK9) | 2025-10-09   | not yet       |
-|                                                          |              |               |
-|                                                          |              |               |
+| [ball bearings](https://www.amazon.fr/dp/B09PVDDBWF)     | 2025-10-09   | not yet       |
+| [Caliper](https://www.amazon.fr/dp/B09GFQPDY8)           | 2025-10-09   | not yet       |
