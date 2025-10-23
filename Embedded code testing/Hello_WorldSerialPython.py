@@ -1,10 +1,8 @@
 import sys
-import time
+from time import sleep
 
-while 1:
-
-	print("Hello World!") //prints "Hello World!"
-	time.wait(3) // waits 3 seconds
-	print("Bye World!") //print "Bye World!"
-	sys.exit() //terminates the code
-	
+while True:
+	print("Hello World!")
+	sleep(3)
+	print("Bye World!")
+	sys.exit()
