@@ -31,13 +31,11 @@ def simple_timer(seconds: int = 5) -> bool:
                 print("Timer interrupted.")
                 return False
             print(f"{seconds - y}…")
-            if sfx:
-                play(SFX_TIMER_WAIT)
+            play(SFX_TIMER_WAIT)
             t_sleep(1)
 
         print("Go!")
-        if sfx:
-            play(SFX_TIMER_GO)
+        play(SFX_TIMER_GO)
 
     except KeyboardInterrupt:
         stop_flag = True
