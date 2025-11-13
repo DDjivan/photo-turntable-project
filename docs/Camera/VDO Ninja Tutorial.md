@@ -40,9 +40,14 @@ photo_turntable_1_3_4_2
 
 ### Finish set up 
 
-1. On the director's page ([link](https://vdo.ninja/?director=photo_turntable_1_3_4_2)), click "copy solo view link" 
-2. Access the copied URL it in a new browser tab 
-3. Done! 
+Still on the director's page ([link](https://vdo.ninja/?director=photo_turntable_1_3_4_2)) 
+
+1. "video settings": choose a higher resolution 
+2. Click "copy solo view link" 
+3. Access the copied URL it in a new browser tab 
+4. `CTRL+RMB` on the video and select "Watch in Picture-in-Picture" (on Gecko web browsers, e.g. Mozilla Firefox) 
+5. Full screen 
+6. Done! 
 
 
 
