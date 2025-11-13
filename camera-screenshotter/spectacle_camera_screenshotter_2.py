@@ -13,17 +13,17 @@ SFX_UNUSED = "./sounds/completion-fail.wav"
 SFX_END = "./sounds/message-new-instant.wav"
 
 stop_flag = False
+play_sfx = True
 
 def play(sfx:str) -> None:
+    if not play_sfx or not exists(sfx):
+        return
+
     s.run(f"aplay {sfx}", shell=True, stdout=s.DEVNULL, stderr=s.DEVNULL)
     return
 
-def simple_timer(seconds: int = 5, sfx: bool = True) -> bool:
+def simple_timer(seconds: int = 5) -> bool:
     global stop_flag
-
-    if sfx and not (exists(SFX_TIMER_WAIT) and exists(SFX_TIMER_GO)):
-        print("≥ 1 sound file not found!")
-        sfx = False
 
     try:
         for y in range(1, seconds):
@@ -45,20 +45,21 @@ def simple_timer(seconds: int = 5, sfx: bool = True) -> bool:
 
     return True
 
-def take_screenshot_spectacle(output_file: str) -> None:
-    command = [
-        "spectacle",
-        "--fullscreen",
-        "--background",
-        "--output", output_file
-    ]
+# def take_screenshot_spectacle(output_file: str) -> None:
+#     command = [
+#         "spectacle",
+#         "--fullscreen",
+#         "--background",
+#         "--output", output_file
+#     ]
 
-    try:
-        s.run(command, check=True, stdout=s.DEVNULL, stderr=s.DEVNULL)
-        print(f"Screenshot saved to: {output_file}")
-    except s.CalledProcessError as e:
-        print(f"Error capturing screenshot: {e}")
-    return
+#     try:
+#         s.run(command, check=True, stdout=s.DEVNULL, stderr=s.DEVNULL)
+#         print(f"Screenshot saved to: {output_file}")
+#         play(SFX_SCREENSHOT)
+#     except s.CalledProcessError as e:
+#         print(f"Error capturing screenshot: {e}")
+#     return
 
 def take_screenshot_flameshot(output_file: str) -> None:
     command = [
@@ -70,6 +71,7 @@ def take_screenshot_flameshot(output_file: str) -> None:
     try:
         s.run(command, check=True, stdout=s.DEVNULL, stderr=s.DEVNULL)
         print(f"Screenshot saved to: {output_file}")
+        play(SFX_SCREENSHOT)
     except s.CalledProcessError as e:
         print(f"Error capturing screenshot: {e}")
     return
@@ -81,7 +83,7 @@ def take_multiple_screenshots(output_dir: str, amount: int, delay) -> None:
             print("Screenshot capturing interrupted.")
             break
         path = f"{output_dir}flameshot_{y_not:03}.jpg"
-        play(SFX_SCREENSHOT)
+        # play(SFX_SCREENSHOT)
         take_screenshot_flameshot(path)
         t_sleep(delay)
 
